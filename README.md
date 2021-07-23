@@ -55,3 +55,27 @@ mutation {
   }
 }
 ```
+
+```
+mutation {
+  editBook(bookId: 3, title: "tt", message:"mm", author:"aa", url:"uu") {
+    bookId
+    title
+    message
+    author
+    url
+  }
+}
+```
+
+```
+mutation {
+  deleteBook(bookId: 3) {
+    bookId
+    title
+    message
+    author
+    url
+  }
+}
+```
