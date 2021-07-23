@@ -2,4 +2,13 @@
 
 _Fastcampus Graphql 강의 내용을 정리해둔 자료입니다._
 
-## graphql
+## typeDef(s)
+
+- GraphQL Schema 정의하는 곳
+  - Object, Query, Mutation, Input
+- gql과 Tagged Template Literals로 작성(gql\`~\`)
+
+## resolver(s)
+
+- Schema에 해당하는 구현을 하는 곳
+- 요청을 받아 데이터를 조회, 수정, 삭제
