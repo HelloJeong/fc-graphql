@@ -12,3 +12,32 @@ _Fastcampus Graphql 강의 내용을 정리해둔 자료입니다._
 
 - Schema에 해당하는 구현을 하는 곳
 - 요청을 받아 데이터를 조회, 수정, 삭제
+
+## query
+
+- playground에서 다음의 쿼리를 날리면 됨
+- bookId만 필요하다면 title, message, author, url을 지우고 날리면 됨
+
+```
+query {
+  books {
+    bookId
+    title
+    message
+    author
+    url
+  }
+}
+```
+
+```
+query {
+  book(bookId: 1) {
+    bookId
+    title
+    message
+    author
+    url
+  }
+}
+```
