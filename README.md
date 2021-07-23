@@ -41,3 +41,17 @@ query {
   }
 }
 ```
+
+## mutation
+
+```
+mutation {
+  addBook(title: "t", message:"m", author:"a", url:"u") {
+    bookId
+    title
+    message
+    author
+    url
+  }
+}
+```

@@ -12,5 +12,6 @@
     "message": "message test2",
     "author": "author test2",
     "url": "url test2"
-  }
+  },
+  { "title": "t", "message": "m", "author": "a", "url": "u", "bookId": 3 }
 ]
